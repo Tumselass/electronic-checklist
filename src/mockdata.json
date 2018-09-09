@@ -1,0 +1,106 @@
+{
+  "checklists": {
+    "c1": {
+      "id": "c1",
+      "name": "Boeing 737 NG",
+      "aircraft": "b737ng",
+      "verison": "1",
+      "company": "SAS",
+      "date": "07.04.2017",
+      "updated": "07.09.2018",
+      "sections": {
+        "s1": {
+          "id": "s1",
+          "name": "Preflight Checklist",
+          "content": {
+            "1": {
+              "id": "s1c1",
+              "challange": "Broadband Switch",
+              "response": "on"
+            },
+            "2": {
+              "id": "s1c2",
+              "challange": "Fuel ShutOff Valve",
+              "response": "Checked"
+            },
+            "3": {
+              "id": "s1c3",
+              "challange": "Navigation Transfer and Display Switches",
+              "response": "On/Auto"
+            },
+            "4": {
+              "id": "s1c4",
+              "challange": "Window Heat",
+              "response": "On"
+            }
+          }
+        },
+        "s2": {
+          "id": "s2",
+          "name": "Before Start Checklist",
+          "content": {
+            "1": {
+              "id": "s2c1",
+              "challange": "Fuel Pumps",
+              "response": "...Kg Pumps On"
+            },
+            "2": {
+              "id": "s2c2",
+              "challange": "Passenger Signs",
+              "response": "On"
+            }
+          }
+        }
+      }
+    },
+    "c2": {
+      "id": "c2",
+      "name": "Boeing 737 NG",
+      "aircraft": "b737ng",
+      "verison": "1.2",
+      "company": "Norwegian",
+      "date": "07.04.2017",
+      "updated": "07.09.2018",
+      "sections": {
+        "s1": {
+          "id": "s1",
+          "name": "Preflight Checklist",
+          "content": {
+            "1": {
+              "challange": "WIFI Switch",
+              "response": "on"
+            },
+            "2": {
+              "challange": "Fuel ShutOff Valve",
+              "response": "Tested"
+            }
+          }
+        },
+        "s2": {
+          "id": "s2",
+          "name": "Before Start Checklist",
+          "content": {
+            "1": {
+              "challange": "Fuel Pumps",
+              "response": "...Kg Pumps On"
+            },
+            "2": {
+              "challange": "Passenger Signs",
+              "response": "On/Auto"
+            }
+          }
+        }
+      }
+    }
+  },
+  "authors": {
+    "a1": {
+      "id": "a1",
+      "name": "Thomas Flunes",
+      "checklists": {
+        "c1": "c1",
+        "c2": "c2"
+      }
+    }
+  }
+}
